@@ -1,0 +1,21 @@
+<!-- This is the main view file that starts everything -->
+<head>
+  <!-- Note that you can't insert templates or much of anything reactive up here. -->
+  <title>My Cool Blog</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="span3">
+        {{> postList }}
+        {{> addPostForm }}
+      </div>
+    
+      <div class="span9">
+        {{> postView }}
+      </div>
+    </div>
+  </div>
+</body>
+

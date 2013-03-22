@@ -1,0 +1,1 @@
+This is code that will run only on the server. Our app doesn't actually need anything here, but if we expanded it then we may want to setup new subscriptions and rules for authentication here (since the client will never get this, and thus we can program "privileged" code here).

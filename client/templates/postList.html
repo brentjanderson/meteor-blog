@@ -1,0 +1,11 @@
+<!-- Our list of posts - loops through posts and lists them! -->
+<template name="postList">
+  <h1>My Posts</h1>
+    
+  <ul class="nav nav-list well">
+    <li class="nav-header">My Posts</li>
+    {{#each posts}}
+      <li><a href="#">{{title}}</a></li>
+    {{/each}}
+  </ul>
+</template>

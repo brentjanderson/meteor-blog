@@ -1,0 +1,1 @@
+This folder is shared between both Client and Server. Javascript, Coffeescript, and other executable files will be shared with the Server. CSS, LESS, Templates (and scripts for templates) and other presentation stuff does NOT belong here and may even cause problems (e.g. the server doesn't know what 'Template' means and will throw errors).

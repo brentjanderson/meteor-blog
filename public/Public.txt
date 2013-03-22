@@ -1,0 +1,1 @@
+This file is available when you visit http://localhost:3000/Public.txt! Any other files in the public folder are available similarly (including folder structure - so if you had a file named "myFile" in public/myFolder, then you'd get to that file by going to http://localhost:3000/myFile).

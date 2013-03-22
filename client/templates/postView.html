@@ -1,0 +1,11 @@
+<!-- Shows us the post if it exists -->
+<template name="postView">
+  {{#if post}}
+    <h1>{{post.title}} <small>{{post.date}}</small></h1>
+    <p>{{post.content}}</p>
+    <a href="#" class="btn btn-small btn-danger delete-post">Delete</a>
+    <hr/>
+    <!-- Insert the commentsView template, which gives us everything we need for comments -->
+    {{> commentsView}}
+  {{/if}}
+</template>

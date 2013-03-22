@@ -1,0 +1,28 @@
+<!-- This file contains all the templates used by the comments system. -->
+
+<!-- This template is the basic comments view. It just inserts the other two templates -->
+<template name="commentsView">
+  {{> addCommentForm}}
+  {{> commentsList}}
+</template>
+
+<!-- This template lets you add comments -->
+<template name="addCommentForm">
+  <h2>Add comment</h2>
+  <label>Title: <input type="text"></label>
+  <label>Content: <textarea></textarea></label>
+  <button class="btn btn-success">Add Comment</button>
+</template>
+
+<!-- This loops through the comments we have and adds them below the post -->
+<template name="commentsList">
+  {{#if comments}}
+    {{#each comments}}
+    <div class="well">
+      <h3>{{title}} <small>{{date}}</h3>
+      <p>{{content}}</p>
+      <a href="#" class="btn btn-danger delete-comment">Delete</a>
+    </div>
+    {{/each}}
+  {{/if}}
+</template>

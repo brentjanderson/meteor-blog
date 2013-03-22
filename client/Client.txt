@@ -1,0 +1,1 @@
+This folder consists of stuff that will go to the client - and only the client. Add templates, javascript, CSS, LESS, CoffeeScript, and more (although some stuff requires that you add a meteor package to process it).

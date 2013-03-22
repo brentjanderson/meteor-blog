@@ -1,0 +1,1 @@
+This folder is not really used by meteor - it's ignored. Put unit tests in here for your project. Although meteor ignores it, you can still run tests from here that will ensure your code is properly unit tested.
