@@ -9,7 +9,7 @@ A group of ISYS Jr. Core students met to play around with [MeteorJS](http://www.
 __Windows:__ Visit [Win.Meteor.com](http://win.meteor.com) to get the Meteor Preview for Windows. Follow the instructions there.  
 __Mac/Linux:__ Run `curl https://install.meteor.com | /bin/sh` from your command line
 
-Once you have Meteor [Download the code](archive/master.zip) (or click the "ZIP" button above), run `cd ~/path/to/the/meteor/folder` and then just run `meteor`! Start playing around with the code.
+Once you have Meteor [Download the code](http://github.com/brentjanderson/meteor-blog/archive/master.zip) (or click the "ZIP" button above), run `cd ~/path/to/the/meteor/folder` and then just run `meteor`! Start playing around with the code.
 
 ## Project structure
 This project uses Meteor's conventions with one addition:
